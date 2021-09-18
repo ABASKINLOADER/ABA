@@ -1,1 +1,1 @@
-print("true")
+local check = true
