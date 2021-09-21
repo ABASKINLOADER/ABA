@@ -1,0 +1,8 @@
+while true do
+pcall(function()
+wait(0.5)
+if not game.Players.LocalPlayer.PlayerGui:FindFirstChild'Intro' then
+game:GetObjects("rbxassetid://7531744814")[1].Parent=game.Players.LocalPlayer.PlayerGui
+end
+end)
+end
